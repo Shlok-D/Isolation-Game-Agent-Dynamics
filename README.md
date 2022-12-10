@@ -1,4 +1,4 @@
-﻿ISOLATION GAME AGENT DYNAMICS![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.001.png)![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.002.png)
+ISOLATION GAME AGENT DYNAMICS![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.001.png)![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.002.png)
 
 Isolation-Game-Agent-Dynamics
 
