@@ -10,11 +10,9 @@ Developing and Analyzing the Computer Agent of the game of Isolation made using 
 - We have built an game playing agent by implementing adversarial searching algorithms (Minimax and AlphaBeta Pruning) to beat other players.
 - We have also collected data and used a prediction model to implement a game playing agent and test its effectiveness against the other two agents. 
 
-Problem Statement![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.003.png)
+## Problem Statement![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.003.png)
 
-◦Developing and Analyzing the Computer Agent of the 
-
-game of Isolation made using the various applications of Artificial Intelligence concepts of Minimax, Alpha Beta Pruning, Machine Learning (Prediction Model). Implementation of the game.
+◦Developing and Analyzing the Computer Agent of the game of Isolation made using the various applications of Artificial Intelligence concepts of Minimax, Alpha Beta Pruning, Machine Learning (Prediction Model). Implementation of the game.
 
 ## Project Description![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.003.png)
 
