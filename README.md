@@ -1,10 +1,8 @@
-ISOLATION GAME AGENT DYNAMICS![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.001.png)![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.002.png)
-
-Isolation-Game-Agent-Dynamics
+# ISOLATION GAME AGENT DYNAMICS!
 
 Developing and Analyzing the Computer Agent of the game of Isolation made using the various applications of Artificial Intelligence concepts of Minimax, Alpha Beta Pruning, Machine Learning (Prediction Model). Implementation of the game.
 
-Introduction![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.003.png)
+## Introduction![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.003.png)
 
 - The project is about the game of Isolation and its agent dynamics.
 - Isolation is a deterministic, two-player game of perfect information in which the players alternate turns moving a single piece from one cell to another on a board. 
@@ -18,17 +16,16 @@ Problem Statement![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.003.png)
 
 game of Isolation made using the various applications of Artificial Intelligence concepts of Minimax, Alpha Beta Pruning, Machine Learning (Prediction Model). Implementation of the game.
 
-Project Description![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.003.png)
+## Project Description![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.003.png)
 
-◦Performance Measure :- Win, Loss ◦Environment :- nXn grid
-
+◦Performance Measure :- Win, Loss 
+◦Environment :- nXn grid
 ◦Actuators :- Placing the Pieces on the desired location, 
-
 and deriving the moves of the agent according to the position.
+◦Sensor :- Board Perceived as a nXn matrix. 
+◦Agent Types - 1 Learning Agent.
 
-◦Sensor :- Board Perceived as a nXn matrix. ◦Agent Types - 1 Learning Agent.
-
-Methodology![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.003.png)
+## Methodology![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.003.png)
 
 - MiniMax – Created a minimax algorithm to find the optimal move, for each turn it searches the probable moves. 
 - It then iterates through them and recursively solves (minimizing the user, and maximizing the computers chances) till you get a solution, then it backtracks to the initial move chosen and gives it a score(win-(1), loss-(-1)). Based on the scores it choses the next move. 
@@ -36,7 +33,7 @@ Methodology![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.003.png)
 - It results in much faster results and the game doesn’t crash in larger board(n) sizes.
 - We have included an agent made using a prediction model for a board(4x4) size to see how it fares against the above two algorithms. The model is based on the data of the computer moves in which it wins. The model predicts the computers based on the users input and the stage of the game. We use the Multi-Output Regression model to train and predict the computers move. 
 
-Proposed Solution![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.003.png)
+## Proposed Solution![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.003.png)
 
 - Creating the functional UI using the pygame library for the game and optimising the algorithms has led us to the following solutions.
 - The UI consists of nxn(3-8) chessboards and the user and computer piece, it also consists of a region where you input the your move and then the computer moves accordingly.  
@@ -44,7 +41,7 @@ Proposed Solution![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.003.png)
 - Alpha Beta Pruning is better because it selects the optimal solution and it is much faster than MiniMax algorithm because it skips further processing if the required solution has already been found. The speed is much more noticeable as the board size increases.
 - Predictive Models are required to ensure optimality and reduce response time in large games, hence it is better ultimately if we have enough data.
 
-Conclusion![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.003.png)
+## Conclusion![](Aspose.Words.8232b645-eb60-4c7a-bd1d-49309f4373ff.003.png)
 
 - The conclusion from the following project:
 - User Interface for the games make them more functional, functional and appealing.
